@@ -1,0 +1,553 @@
+ /*Code for pictures, page colours etc, fonts.*/
+body{
+  background-color: #A1D3DF;
+}
+
+body {margin:0;}
+
+
+#Banners {
+  width: 100%;
+  height: 300px;
+}
+
+
+
+h1 {
+  font-family: Georgia, serif;
+} 
+
+
+#Products {
+width: 500px;
+height: 450px;
+}
+ /*Code for pictures, page colours etc, fonts.*/
+
+/*This is the top naviagtion bar*/
+
+#Nav1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Georgia, serif;
+}
+li a:hover:not(.active) { /* When hovering over a button on naviagtion bar it turns black*/
+  background-color: #111;
+}
+#Nav1 .active {
+  background-color: #4CAF50;
+}
+
+/* Add a gray right border to all buttons on the navigation bar Nav1 */
+#Nav1 li {
+  border-right: 1px solid #bbb;
+}
+
+#Nav1 li:last-child {
+  border-right: none;
+}
+/*This is the top naviagtion bar*/
+
+
+
+/*This is the bottom naviagtion bar*/
+#Nav2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+  font-family: Georgia, serif;
+}
+
+li a:hover:not(.active) { /* When hovering over a button on naviagtion bar it turns black*/
+  background-color: #111;
+}
+
+#Nav2 .active {
+  background-color: #4CAF50;
+}
+
+/* Add a gray right border to all buttons on the navigation bar Nav2 */
+#Nav2 li {
+  border-right: 1px solid #bbb;
+}
+
+#Nav2 li:last-child {
+  border-right: none;
+}
+/*This is the bottom naviagtion bar*/
+
+
+
+
+
+
+/* This is the search bar */
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+/* This is the search bar */
+
+
+
+
+ 
+ 
+ 
+
+/* Slideshow container */
+* {box-sizing:border-box}
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* Slideshow container */
+
+
+
+/* Products code*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+margin-left: 25%;
+margin-right: auto;
+
+}
+
+
+
+.row2 {
+margin-left: 25%;
+margin-right: auto;
+
+}
+
+.row3 {
+margin-left: 25%;
+margin-right: auto;
+
+}
+
+.row4 {
+margin-left: 25%;
+margin-right: auto;
+
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+/* Clear floats after the columns */
+.row3:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Clear floats after the columns */
+.row4:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+ 
+#productbutton {
+  text-align: center;
+  }
+/* Products code*/  
+  
+  
+  
+  
+/* Cart code*/  
+.no-corners{
+  border-radius: 0;
+}
+
+.cart{
+  transform: scale(0);
+  transform-origin: top right;
+  position: absolute;
+  display: inline-block;
+  top: 52px;
+  right: 50px;
+  width: 300px;
+  transition: transform 0.3s ease-out, height 0.3s linear;
+  overflow: hidden;
+  
+  &.expanded{
+    transform: scale(1.0);
+    transition: transform 0.4s ease-in, height 0.4s linear;
+    
+    .cart-item{
+      transform: translateX(0);
+      transition-delay: 0s;
+      
+      &.removing{
+        transition-delay: 0s !important;
+      }
+      
+      &:nth-child(1):not(.template){
+        transition-delay: 0.15s;
+      }
+      
+      &:nth-child(2):not(.template){
+        transition-delay: 0.3s;
+      }
+      
+      &:nth-child(3):not(.template){
+        transition-delay: 0.45s;
+      }
+      
+      &:nth-child(4):not(.template){
+        transition-delay: 0.6s;
+      }
+      
+      &:nth-child(5):not(.template){
+        transition-delay: 0.75s;
+      }
+      
+      &:nth-child(6):not(.template){
+        transition-delay: 0.9s;
+      }
+      
+      &:nth-child(7):not(.template){
+        transition-delay: 1.05s;
+      }
+      
+    }
+  }
+  
+  .panel-heading h3{
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .cart-item{
+    clear: left;
+    opacity: 1;
+    display: inline-block;
+    transform: translateX(224px);
+    height: 130px;
+    transition: transform 0.3s ease-out, 
+                opacity 0.4s ease-out, 
+                height 0.3s linear;
+    
+    &.template{
+      display: none;
+    }
+    
+    &.toggling{
+      height: 0;
+      transform: translateX(-300px);
+      opacity: 0;
+    }
+  }
+  
+  
+}
+
+.navbar{
+  .navbar-brand{
+    img{
+      max-height: 100%;
+    }
+  }
+}
+ /* Cart code*/   
+  
+  
+  
+  
+  
+
+     *{box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+#Banners {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+  
+  
+  
+  
+  
+  
+  
+  
